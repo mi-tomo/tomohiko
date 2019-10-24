@@ -83,7 +83,7 @@
    }
   }
 .work{
-width:50%;
+width:60%;
 display:flex;
 // frex-direction: row;
 flex-wrap: wrap;
@@ -93,10 +93,9 @@ justify-content: center;
 }
 .workcont{
   width:40%;
-  height:150px;
-  margin:5px 5px;
-  background-color:green;
-  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.4);
+  height:200px;
+  margin:10px 10px;
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.7);
 }
 .foot{
   width:100%;
