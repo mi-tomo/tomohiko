@@ -74,7 +74,7 @@
     line-height:33px;
     color:white;
     font-weight:bold;
-
+    
     // background-color: white;
     margin-top:60px;
     // color: #0095ee;
@@ -88,6 +88,7 @@
     border-radius: 4px;
     padding: 8px 10px 6px;
     transition: 0.3s;
+    
    }
   }
 .work{
@@ -133,4 +134,29 @@ justify-content: center;
 }
 .foot-2{
   border-bottom:thick solid red;
+}
+.top-contact{
+  text-decoration:none;
+  color:white;
+}
+.workbtn{
+  color: #222;
+  text-decoration:none;
+}
+.hatenabloglink{
+  color: #222;
+  text-decoration:none;
+}
+.mailmark{
+  color: #222;
+}
+.twittermark{
+  color: rgba(29,161,242,1.00);
+}
+
+.mercari-wrap{
+  width:273px;
+  // color:white;
+  text-align:center;
+  font-weight:bold;
 }
