@@ -1,10 +1,10 @@
  
 <div class="wrap">
-　<%= image_tag 'desk.jpg' , alt: 'desk' , :size =>'1450x967', class: 'backpic' %>
+ <%= image_tag 'desk.jpg' , alt: 'desk' , :size =>'1450x967', class: 'backpic' %>
   <div class="content">
   <div class="head">
     <div class="head__right">
-      <i class="fas fa-bars"></i>
+      <%# <i class="fas fa-bars"></i> %>
     </div>
   </div>
   <div class="mid">
@@ -22,7 +22,7 @@
     </div>
     <div class="mid__low">
       <div class="top-contact">
-      CONTACT
+      <a class="top-contact" href="/mains/contact" >CONTACT</a>
       </div>
     </div>
     <div class="work">
@@ -30,8 +30,11 @@
       <a href=http://3.114.214.226/ target="_blank"><%= image_tag 'chat.png' , alt: 'chat' , :size =>'273x200', class: 'workpic' %></a>
       </div>
       <div class="workcont work-2">
-      <a href=http://52.192.70.14/ target="_blank"><%= image_tag 'mercari.png' , alt: 'chat' , :size =>'273x200', class: 'workpic' %></a>
+      <a href=http://52.192.70.14/ target="_blank"><%= image_tag 'mercari.png' , alt: 'chat' , :size =>'273x170', class: 'workpic' %></a>
+      <div class="mercari-wrap">ID: expert &emsp; Pass: 1018
       </div>
+      </div>
+      
       <div class="workcont work-3">
       <a href=http://3.114.77.156/products/new target="_blank"><%= image_tag 'car-app.png' , alt: 'chat' , :size =>'273x200', class: 'workpic' %></a>
       </div>
@@ -42,23 +45,24 @@
     <div class="foot">
       <div class="foot__up">
         <div class="foottext foot-1">
-        WORK
+        <a class="workbtn" href="/mains/works" >WORK</a>
         </div>
         <div class="foottext foot-2">
-        ABOUT
+        <a class="workbtn" href="/mains/about" >ABOUT</a>
         </div>
         <div class="foottext foot-3">
-        <a href=https://miiitomo.hatenablog.com/ target="_blank">BLOG</a>
+        <a class="hatenabloglink" href=https://miiitomo.hatenablog.com/ target="_blank">BLOG</a>
         </div>
       </div>
       <div class="foot__low">
         <div class="foottext foot-4">
-          <a href=https://twitter.com/dqLfsEuSDZHlLQg target="_blank">
+          <a class="twittermark" href=https://twitter.com/dqLfsEuSDZHlLQg target="_blank">
           <i class="fab fa-twitter-square"></i>
           </a>
         </div>
         <div class="foottext foot-5">
-         <i class="far fa-envelope"></i>
+        <a class="mailmark" href="/mains/contact" >
+         <i class="far fa-envelope"></i></a>
         </div>
       </div>
       <div class="footer">
