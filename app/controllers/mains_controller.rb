@@ -7,4 +7,6 @@ class MainsController < ApplicationController
   end
   def works
   end
+  def hikaku
+  end
 end
