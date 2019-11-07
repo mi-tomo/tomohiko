@@ -1,0 +1,25 @@
+@mixin middle_located() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin both_end_located() {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin even_placement() {
+  display: flex;
+  justify-content: space-around;
+}
+
+@mixin item__inner() {
+  // 縦に積む
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  // 中央寄せ
+  justify-content: center;
+  align-items: center;
+}

@@ -1,10 +1,10 @@
 .wrap{
-  // display:relative;
   position: relative;
   z-index:1;
   width:100vw;
   left:0;
   right:0;
+
 }
 .backpic{
   position: absolute;
@@ -141,18 +141,22 @@ justify-content: center;
   color:white;
 }
 .workbtn{
-  color: #222;
+  // color: #222;
+  color:white;
   text-decoration:none;
 }
 .hatenabloglink{
-  color: #222;
+  // color: #222;
+  color:white;
   text-decoration:none;
 }
 .mailmark{
-  color: #222;
+  // color: #222;
+  color:white;
 }
 .twittermark{
   color: rgba(29,161,242,1.00);
+  
 }
 
 .mercari-wrap{
