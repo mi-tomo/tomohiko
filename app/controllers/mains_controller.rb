@@ -9,4 +9,6 @@ class MainsController < ApplicationController
   end
   def hikaku
   end
+  def qa
+  end
 end

@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       get "contact"
       get "works"
       get "hikaku"
+      get "qa"
       # get "step4"
       # get "done"
     end
