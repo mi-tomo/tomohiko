@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+.slick-loading .slick-list
+{
+    background: #fff url('./ajax-loader.gif') center center no-repeat; /* urlを対応する場所に変更 */
+}
 // Default Variables
 
 // Slick icon entity codes outputs the following
