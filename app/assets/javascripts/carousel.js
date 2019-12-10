@@ -1,13 +1,55 @@
 $(document).on('turbolinks:load', function(){
+  // $('.slick').slick({
+  //   autoplay:true,  //自動再生
+  //   dots:false,      //ドットの描写
+  //   arrows: false,
+  //   slidesToShow: 7,
+  //   slidesToScroll: 1,
+  //   autoplaySpeed: 0,
+  //   cssEase: 'linear',
+  //   speed: 1500,
+  // });
   $('.slick').slick({
-    autoplay:true,  //自動再生
-    dots:false,      //ドットの描写
+    autoplay:true,
+    dots: false,
     arrows: false,
-    slidesToShow: 7,
+    // infinite: false,
+    speed: 1500,
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplaySpeed: 0,
     cssEase: 'linear',
-    speed: 1500,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          // infinite: true,
+          dots: false,
+          cssEase: 'linear',
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          cssEase: 'linear',
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+          
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
   });
 });
 
@@ -29,3 +71,4 @@ $(document).on('turbolinks:load', function(){
 //   slidesToShow: 7,
 //   slidesToScroll: 1,
 // });
+
